@@ -1,0 +1,46 @@
+
+@font-face {
+  font-family: 'Lato-Light';
+  src: url('../lib/fonts/lato-light.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Lato-Regular';
+  src: url('../lib/fonts/lato-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Lato-bold';
+  src: url('../lib/fonts/lato-Bold.ttf') format('truetype');
+}
+body {
+	background: url('../images/hoffman.png');
+}
+#heading1 {
+	margin-top: 10%;
+	font-family: Lato-Bold;
+	text-align: center;
+	color: black;
+	font-size: 5em;
+}
+.btn {
+	font-family: Lato-light;
+	font-size: 1.5em;
+}
+.center {
+	text-align: center;
+}
+.right {
+	text-align: right;
+}
+.stats-block {
+	font-size: 1.5em;
+	background: #EEEEEE;
+	padding: 5px;
+	border-radius: 5px;
+	border: 1px solid #BDC3C7;
+	opacity: 0.5;
+}
+.remodal {
+	font-family: lato-light;
+	background: url('../images/stardust.png');
+	color: white;
+}

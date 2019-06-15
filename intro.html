@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="lib/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="lib/css/animate.min.css">
+	<link rel="stylesheet" type="text/css" href="css/introStyle.css">
+</head>
+
+<body>
+	<div class="container">
+		<div class="row middle">
+			<div class="col-xs-3 col-xs-offset-3 vcenter">
+				<img src="images/logo.png" class="logo-pos">
+			</div>
+			<div class="col-sm-4 vcenter">
+				<div class="logo-text">
+					<span class="default">D-FAULT</span>
+					<span class="games">GAMES</span>
+				</div>
+			</div>
+		</div>
+	</div>
+<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		var audio = new Audio('sounds/intro.wav');
+		//audio.play();
+		$('.logo-pos').addClass('animated').addClass('lightSpeedIn');
+		$('.logo-text').addClass('animated').addClass('flipInX');
+		setTimeout(function(){
+			//window.location.replace("menu.html");
+		}, 3000);
+
+	});
+</script>
+</body>
+</html>

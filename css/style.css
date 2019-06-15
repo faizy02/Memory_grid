@@ -1,0 +1,159 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	background: url('../images/geometry2.png');
+}
+@font-face {
+  font-family: 'Seymour';
+  src: url('../lib/fonts/SeymourOne-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Lato-Light';
+  src: url('../lib/fonts/lato-light.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Lato-Regular';
+  src: url('../lib/fonts/lato-Regular.ttf') format('truetype');
+}
+
+
+.game-window {
+	width: 100%;
+	margin: auto;
+	height: 100%;
+	display: table;
+}
+#matrix-box{
+	border : 10px solid #EEEEEE;
+	padding: 3px 0px 0px 3px;
+	margin: auto;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	display: table-cell;
+	vertical-align: middle;
+}
+.matrix-block{
+	margin: 3px 0 0 3px;
+	float: left;
+	position: relative;
+	width: 45px;
+	height: 45px;
+	display: table;
+}
+.matrix-block.myhidden {	
+	background: #95A5A6;
+	transition: background 0.5s;
+	opacity: 0.5;
+}
+.matrix-block.shown {
+	background: #89C4F4;
+	transition: background 0.5s;
+}
+.matrix-block.shown-red {
+	background: #EF4836;
+	transition: background 0.5s;
+}
+.matrix-block.shown-green {
+	background: #87D37C;
+	/*-webkit-transform: rotate(180deg);  Safari 
+    transform: rotate(180deg);*/
+	transition: background 0.5s;/* transform 0.5s*/
+}
+#global-stats {
+	font-family: lato-Regular;
+	text-align: center;
+	font-size: 1em;
+	padding: 1px;	
+	color: white;
+	background-color: #000;
+}
+.level-score-add {
+	color: black;
+}
+#level-stats {
+	font-family: lato-light;
+	text-align: center;
+	font-size : 4.5em;
+	padding: 10px;
+}
+#level-stats > div:nth-child(1) {
+	color : #26A65B;
+}
+#level-stats > div:nth-child(2) {
+	color : #59ABE3;
+}
+#level-stats > div:nth-child(3) {
+	color : #D91E18;
+}
+
+.center {
+	text-align: center;
+}
+.right {
+	text-align: right;
+}
+.left {
+	text-align: left;
+}
+.font-lato {
+	font-family: lato-light;
+}
+.font-green {
+	color: #26C281;
+}
+.font-red {
+	color: #EF4836;
+} 
+.font-size {
+	font-size: 3em;
+}
+.font-message {
+	font-family: lato-light;
+	font-size: 2em;
+	padding: 10px;
+}
+.next-message {
+	font-family: lato-light;
+	font-size: 1.5em;
+} 
+#pauseBtn {
+	position: relative;
+	margin-left: -15px;
+	border-radius: 0px;
+	width: 37px;
+	
+}
+#volBtn {
+	position: relative;
+	margin-left: -15px;
+	border-radius: 0px;
+	
+}
+#myModal {
+	font-family: lato-light !important;
+	font-size: 3em;
+}
+#myModal a {
+	text-decoration: none;
+}
+#myModal .btn {
+	border-radius: 0px;
+	font-size: 25px;
+	width: 50px;
+	color: white;
+}
+.btn-twitter {
+	background: #00aced;
+}
+.btn-fb {
+	background: #3b5998;
+}
+.btn-google {
+	background: #dd4b39;
+}
+.remodal {
+	background: url('../images/geometry2.png');
+}

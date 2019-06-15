@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" type="text/css" href="lib/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="lib/css/ionicons.min.css">
+	<link rel="stylesheet" type="text/css" href="lib/css/animate.min.css">
+	<link rel="stylesheet" type="text/css" href="lib/css/jquery.remodal.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+		<div class="container-fluid">
+			<div id="global-stats" class="row">
+				<div class="col-xs-4">LEVEL &nbsp;<span></span></div>
+				<div class="col-xs-4"></div>
+				<div class="col-xs-4">SCORE &nbsp;<span></span></div>
+			</div>
+			<div class="row">
+				<div class="col-xs-8">
+					<a id="pauseBtn" class="btn btn-warning" href="#modal"><span class="ion-pause"></span></a>
+				</div>
+				<div id="levelScoreAdd" class="col-xs-4 level-score-add center"><span></span></div>
+			</div>
+			<div class="row">
+				<div class="col-xs-8">
+					<a id="volBtn" class="btn btn-primary" href="javascript:void(0);"><span class="ion-android-volume-up"></span></a>
+				</div>
+			</div>
+			<div class="row center">
+				<div class="game-window">
+					<div id="matrix-box">
+					</div>
+					<div style="clear:both;"></div>
+				</div>
+			</div> <!-- Matrix box -->
+
+			<div id="afterLevelModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+			  	<div class="modal-dialog modal-sm">
+			 	
+				    <div class="modal-content">
+				    	<div class="modal-header center">
+					    	<h2 class="modal-title" id="modalTitle"><span class=""></span></h2>
+						</div>
+						<div class="modal-body">
+							<div id="modalMessage" class="font-message center">	
+				      			<p></p>
+				   			</div>
+				   			<div id="modalNextMessage" class="next-message center">	
+				      			<p class="font-black">Next Level: <span></span> tiles</p>
+				   			</div>
+				   			
+					    </div>
+				    	
+				  	</div>
+				</div>
+			</div>
+			<div id="myModal" class="remodal" data-remodal-id="modal">
+			  <h1>Paused</h1>
+			  <hr>
+			  <div class="row">
+			  	<div class="col-xs-9 left">
+					<a class="font-green" href="#"><span class="ion-ios-play"></span>   Resume</a>
+					<br>
+					<a class="font-red" href="menu.html"><span class="ion-close"></span> Quit</a>
+				</div>
+			  </div>
+			  <div class="row">
+			  	<div class="col-sm-2 left">
+			  		<span style="font-size: 25px;">SHARE: </span>
+			  	</div>
+			  	<div class="col-xs-2">
+			  		<a href="#" class="btn btn-fb">&nbsp;<span class="ion-social-facebook">&nbsp;</span></a>
+			  	</div>
+			  	<div class="col-xs-2">
+			  		<a href="#" class="btn btn-twitter"><span class="ion-social-twitter"></span></a>
+			  	</div>
+			  	<div class="col-xs-2">
+			  		<a href="#" class="btn btn-google"><span class="ion-social-google">+</span></a>
+			  	</div>
+			  </div>
+			</div>
+		</div>
+		<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+		<script type="text/javascript" src="lib/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="lib/js/jquery.remodal.js"></script>
+		<script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="lib/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="lib/css/ionicons.min.css">
+	<link rel="stylesheet" type="text/css" href="lib/css/jquery.remodal.css">
+	<link rel="stylesheet" type="text/css" href="css/menuStyle.css">
+
+</head>
+<body>
+</div>
+	<div class="container">
+		<div id="heading1" class="row">
+			<div class="col-xs-12"><h1>MEMORY GRID</H1></div>
+		</div>
+		<br>
+		
+		<div class="row">
+			<div class="col-xs-8 col-xs-offset-2 stats-block center">
+				<span class="ion-android-person"></span>&nbsp;<span>Faizan</span>
+				<br>
+				<span>High Score :</span>&nbsp;<span><b>450</b></span>
+			</div>
+		</div>
+		<br>
+		<div class="button-block">	
+			<div class="row">
+				<div class="col-lg-12 center">
+					<a id="playButton" class="btn btn-info" href="javascript:void(0)"><span class="glyphicon glyphicon-triangle-right"></span> New Game</a>
+				</div>
+			</div>
+			<br>
+			<div class="row">
+				<div  class="col-lg-12 center">
+					<a id= "rateButton" class="btn btn-warning"><span class="glyphicon glyphicon-star"></span> Rate this app</a>
+				</div>
+			</div>
+			<br>
+			<div class="row">
+				<div class="col-xs-6 right">
+					<a id="volButton" class="btn btn-primary"><span class="ion-android-volume-up"></span></a>
+				</div>
+				<div class="col-xs-6">
+					<a id= "rateButton" class="btn btn-warning" href="#modal"> <span class="ion-help"> </span></a>
+				</div>
+			</div>
+		</div>
+			<div id="userNameModal" class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+			  	<div class="modal-dialog modal-lg">
+			 	
+				    <div class="modal-content">
+				    	<div class="modal-header">
+					    	<h4 class="modal-title" id="modalTitle">Please Enter you name</h4>
+						</div>
+						<form>
+							<div class="modal-body">
+								<input id="username" type="text" class="form-control" placeholder="Name" required/>
+					    	</div>
+					    
+						    <div class="modal-footer">
+								<button id="saveBtn" type="submit" class="btn btn-primary btn-xs">Save</button>
+							</div>
+						</form>
+				    	
+				  	</div>
+				</div>
+			</div>
+			<div id="myModal" class="remodal" data-remodal-id="modal">
+			  <h1><span class="ion-planet"></span> About Memory Grid </h1>
+			  <hr>
+			  <p style="text-align: left;">A classic brain game played for increasing ones short term memory. Just by looking at the 
+			  tiles for a second or two. Player has to guess their correct position and as he increases from level one 
+			  , the game starts getting really tough making it really challenging.</p>
+			  <h3>Developed by : <a href="https://bit.ly/2ERh5aQ">Faizan Sajjad</a> </h3>
+			  <hr>
+			  <a class="remodal-cancel" href="#">Back</a>
+			</div>
+	</div>
+
+</body>
+	<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+	<script type="text/javascript" src="lib/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="lib/js/jquery.remodal.js"></script>
+	<script type="text/javascript" src="js/menuScript.js"></script>
+</html>

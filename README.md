@@ -1,5 +1,5 @@
 # Memory_grid
-A puzzle game which enhances players memory by making him/her recall recently disappearing tiles positions.
+A puzzle game which challenges players memory by making him/her recall recently disappearing tiles positions.
 This game is made using the following technologies
 
 	HTML
